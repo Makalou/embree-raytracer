@@ -1,0 +1,231 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						7
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Release-05ceff4d275d813a050c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1.0"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						6
+					]
+				},
+				{
+					"build" : "common",
+					"childIndexes" : 
+					[
+						2,
+						3,
+						4,
+						5,
+						6
+					],
+					"jsonFile" : "directory-common-Release-6a5c22a1ee7f2aca6d8e.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "common"
+				},
+				{
+					"build" : "common/sys",
+					"jsonFile" : "directory-common.sys-Release-ba87445b375197d1ec14.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1.0"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "common/sys",
+					"targetIndexes" : 
+					[
+						4
+					]
+				},
+				{
+					"build" : "common/math",
+					"jsonFile" : "directory-common.math-Release-d8a632e0f64227368361.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1.0"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "common/math",
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"build" : "common/simd",
+					"jsonFile" : "directory-common.simd-Release-91a927130c994563f075.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1.0"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "common/simd",
+					"targetIndexes" : 
+					[
+						3
+					]
+				},
+				{
+					"build" : "common/lexers",
+					"jsonFile" : "directory-common.lexers-Release-0b9c0a82ffcd4cac69fc.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1.0"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "common/lexers",
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"build" : "common/tasking",
+					"jsonFile" : "directory-common.tasking-Release-2844a1dcaff59a219f71.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1.0"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "common/tasking",
+					"targetIndexes" : 
+					[
+						5
+					]
+				},
+				{
+					"build" : "kernels",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-kernels-Release-d40f7bc69b61a98fa405.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "kernels",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7
+					],
+					"name" : "embree3",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 7,
+					"id" : "embree::@b85b5e8d2ed61bca781d",
+					"jsonFile" : "target-embree-Release-210fae04f5a65875fdf1.json",
+					"name" : "embree",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "lexers::@aa675c62fba45e4235b9",
+					"jsonFile" : "target-lexers-Release-951dbc96c4f94c7da8e5.json",
+					"name" : "lexers",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "math::@8b516f88269103b62bd3",
+					"jsonFile" : "target-math-Release-eab04f4e1d87a6845805.json",
+					"name" : "math",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "simd::@564062e90a064c6b6893",
+					"jsonFile" : "target-simd-Release-39e9731d4e7581272207.json",
+					"name" : "simd",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "sys::@81faf1d5b84ca5e261c4",
+					"jsonFile" : "target-sys-Release-b29785adbb3173f98bc2.json",
+					"name" : "sys",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "tasking::@561f7b1dbfd5f248e492",
+					"jsonFile" : "target-tasking-Release-3fcfe4e363d499d3f078.json",
+					"name" : "tasking",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-Release-10ba611b96089007a6f7.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/Users/wangzeyuan/code/embree-raytracer/ext/embree-concise/cmake-build-release",
+		"source" : "/Users/wangzeyuan/code/embree-raytracer/ext/embree-concise"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

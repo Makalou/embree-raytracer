@@ -1,0 +1,90 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"INSTALL"
+		],
+		"files" : 
+		[
+			"kernels/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 338,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 347,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 351,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "lib",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"libembree3.3.13.3.dylib",
+				"libembree3.3.dylib"
+			],
+			"targetId" : "embree::@b85b5e8d2ed61bca781d",
+			"targetIndex" : 0,
+			"targetInstallNamelink" : "skip",
+			"type" : "target"
+		},
+		{
+			"backtrace" : 2,
+			"component" : "devel",
+			"destination" : "lib/cmake/embree-3.13.3",
+			"exportName" : "embree-targets",
+			"exportTargets" : 
+			[
+				{
+					"id" : "embree::@b85b5e8d2ed61bca781d",
+					"index" : 0
+				}
+			],
+			"paths" : 
+			[
+				"kernels/CMakeFiles/Export/lib/cmake/embree-3.13.3/embree-targets.cmake"
+			],
+			"type" : "export"
+		},
+		{
+			"backtrace" : 3,
+			"component" : "devel",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"libembree3.dylib"
+			],
+			"targetId" : "embree::@b85b5e8d2ed61bca781d",
+			"targetIndex" : 0,
+			"targetInstallNamelink" : "only",
+			"type" : "target"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "kernels",
+		"source" : "kernels"
+	}
+}
