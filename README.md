@@ -8,3 +8,5 @@
 ![plot](./img/IMG_0259.jpeg)
 
 ![plot](./img/random_scene_light.PNG)
+
+![](./img/room_with_color.gif)
