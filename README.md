@@ -1,5 +1,5 @@
 # embree-raytracer
- A simple path tracer written in C++ with intel embree library.
+ A simple offline path tracer written in C++ with intel embree library.
 ## How to Build & Run
 ```shell
 git clone https://github.com/Makalou/embree-raytracer.git
@@ -20,6 +20,7 @@ cd build
 ```shell
 cmake ..
 ```
+Then CMake should automatically check dependencies and generate platform-specific project manage file : (e.g. .sln on Windows). You can then open the project within your favorite IDE then build and run.
 
 ## Showcases
 
