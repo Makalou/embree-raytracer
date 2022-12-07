@@ -2,6 +2,11 @@
  A simple path tracer written in C++ with intel embree library.
 ## How to Build & Run
 ```shell
+git clone https://github.com/Makalou/embree-raytracer.git
+```
+or 
+```shell
+git clone git@github.com:Makalou/embree-raytracer.git
 ```
 
 ## Showcases
