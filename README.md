@@ -1,5 +1,8 @@
 # embree-raytracer
  A simple path tracer written in C++ with intel embree library.
+## How to Build & Run
+```shell
+```
 
 ## Showcases
 
