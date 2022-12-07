@@ -9,4 +9,4 @@
 
 ![plot](./img/random_scene_light.PNG)
 
-![plot](./img/room_with_color.gif)
+![alt-text](./img/room_with_color.gif)
